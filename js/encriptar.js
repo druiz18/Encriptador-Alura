@@ -15,6 +15,8 @@ function encriptar() {
     // Mostrar el mensaje encriptado en el textarea
     document.getElementById("resultado").value = mensaje;
 }
+var btn = document.getElementById("mensaje");
+btn.onclick = encriptar();
 
 function desencriptar() {
     // Obtener el mensaje del textarea
