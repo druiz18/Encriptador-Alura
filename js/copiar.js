@@ -6,4 +6,5 @@ async function copiar(){
     await navigator.clipboard.writeText(text);
     alert("Mensaje copiado");
 }
-
+var btn = document.getElementById("copiar");
+btn.onclick = copiar();
