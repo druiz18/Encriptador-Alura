@@ -15,7 +15,7 @@ function encriptar() {
     // Mostrar el mensaje encriptado en el textarea
     document.getElementById("resultado").value = mensaje;
 }
-var btn = document.getElementById("mensaje");
+var btn = document.getElementById("encriptar");
 btn.onclick = encriptar();
 
 function desencriptar() {
@@ -30,4 +30,5 @@ function desencriptar() {
     // Mostrar el mensaje desencriptado en el textarea
     document.getElementById("resultado").value = mensaje;
 }
-
+var btn = document.getElementById("desencriptar");
+btn.onclick = desencriptar();
